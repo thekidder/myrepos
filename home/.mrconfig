@@ -1,6 +1,7 @@
 
 [liquidprompt]
 checkout = git clone 'https://github.com/nojhan/liquidprompt.git' 'liquidprompt'
+skip = [ "$1" = push ]
 
 [.homesick/repos/dotfiles]
 checkout = homeshick clone 'https://github.com/thekidder/dotfiles.git' 'dotfiles'
