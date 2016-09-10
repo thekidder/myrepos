@@ -1,0 +1,9 @@
+
+[liquidprompt]
+checkout = git clone 'https://github.com/nojhan/liquidprompt.git' 'liquidprompt'
+
+[.homesick/repos/dotfiles]
+checkout = homeshick clone 'https://github.com/thekidder/dotfiles.git' 'dotfiles'
+
+[.homesick/repos/myrepos]
+checkout = homeshick clone 'https://github.com/thekidder/myrepos.git' 'myrepos'
