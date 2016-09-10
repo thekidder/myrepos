@@ -3,6 +3,10 @@
 checkout = git clone 'https://github.com/nojhan/liquidprompt.git' 'liquidprompt'
 skip = [ "$1" = push ]
 
+[.homesick/repos/homeshick]
+checkout = git clone 'git://github.com/andsens/homeshick.git' 'homeshick'
+skip = [ "$1" = push ]
+
 [.homesick/repos/dotfiles]
 checkout = homeshick clone 'https://github.com/thekidder/dotfiles.git' 'dotfiles'
 
