@@ -15,6 +15,7 @@ checkout = homeshick clone 'https://github.com/thekidder/myrepos.git' 'myrepos'
 
 [myrepos/ssh-ident]
 checkout = git clone 'https://github.com/ccontavalli/ssh-ident.git' 'ssh-ident'
+skip = [ "$1" = push ]
 
 [.homesick/repos/highfive-dotfiles]
 checkout = git clone 'git@github.com:thekidder/hf-dotfiles.git' 'highfive-dotfiles'
