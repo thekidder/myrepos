@@ -1,5 +1,5 @@
 
-[liquidprompt]
+[myrepos/liquidprompt]
 checkout = git clone 'https://github.com/nojhan/liquidprompt.git' 'liquidprompt'
 skip = [ "$1" = push ]
 
@@ -12,3 +12,9 @@ checkout = homeshick clone 'https://github.com/thekidder/dotfiles.git' 'dotfiles
 
 [.homesick/repos/myrepos]
 checkout = homeshick clone 'https://github.com/thekidder/myrepos.git' 'myrepos'
+
+[myrepos/ssh-ident]
+checkout = git clone 'https://github.com/ccontavalli/ssh-ident.git' 'ssh-ident'
+
+[.homesick/repos/highfive-dotfiles]
+checkout = git clone 'git@github.com:thekidder/hf-dotfiles.git' 'highfive-dotfiles'
