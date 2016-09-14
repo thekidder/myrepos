@@ -17,3 +17,7 @@
 #### Finally, get config repos
 
 `mr bootstrap https://raw.githubusercontent.com/thekidder/myrepos/master/home/.mrconfig`
+
+#### Finish!
+
+At this point you'll need to grab keys from another machine and place them in the correct place (`~/.ssh/identities/<identity_name>`). Then you can finish cloning private repos by running `mr update` (in a new shell to reload bashrc).
