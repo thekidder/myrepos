@@ -3,21 +3,21 @@ lib = . $HOME/.homesick/repos/homeshick/homeshick.sh
 
 [myrepos/liquidprompt]
 checkout = git clone 'https://github.com/nojhan/liquidprompt.git' 'liquidprompt'
-skip = [ "$1" = push ]
+skip = [ "$1" = push ] || [ "$1" = commit ]
 
 [.homesick/repos/homeshick]
 checkout = git clone 'git://github.com/andsens/homeshick.git' 'homeshick'
-skip = [ "$1" = push ]
+skip = [ "$1" = push ] || [ "$1" = commit ]
+
+[myrepos/ssh-ident]
+checkout = git clone 'https://github.com/ccontavalli/ssh-ident.git' 'ssh-ident'
+skip = [ "$1" = push ] || [ "$1" = commit ]
 
 [.homesick/repos/dotfiles]
 checkout = homeshick clone 'https://github.com/thekidder/dotfiles.git' 'dotfiles'
 
 [.homesick/repos/myrepos]
 checkout = homeshick clone 'https://github.com/thekidder/myrepos.git' 'myrepos'
-
-[myrepos/ssh-ident]
-checkout = git clone 'https://github.com/ccontavalli/ssh-ident.git' 'ssh-ident'
-skip = [ "$1" = push ]
 
 [.homesick/repos/hf-dotfiles]
 checkout = homeshick clone 'git@github.com:thekidder/hf-dotfiles.git' 'hf-dotfiles'

@@ -20,4 +20,4 @@
 
 #### Finish!
 
-At this point you'll need to grab keys from another machine and place them in the correct place (`~/.ssh/identities/<identity_name>`). Then you can finish cloning private repos by running `mr update` (in a new shell to reload bashrc).
+At this point you'll need to grab keys from another machine and place them in the correct place (`~/.ssh/identities/<identity_name>`). Then you can finish cloning private repos by running `mr update` (in a new shell to reload bashrc). You may also need to forcefully link castles once done: `homeshick link dotfiles hf-dotfiles myrepos`
