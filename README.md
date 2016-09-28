@@ -1,5 +1,9 @@
 ### Instructions to bootstrap a new environment
 
+### (Linux) Install git
+
+`sudo apt-get install git`
+
 #### (macOS) Grab brew
 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -7,7 +11,7 @@
 #### Bootstrap Homeshick
 
 * `git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick`
-* `source "$HOME/.homesick/repos/homeshick/homeshick.sh`
+* `source "$HOME/.homesick/repos/homeshick/homeshick.sh"`
 
 #### Install myrepos
 
