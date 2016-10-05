@@ -20,7 +20,7 @@
 
 #### Finally, get config repos
 
-`mr bootstrap https://raw.githubusercontent.com/thekidder/myrepos/master/home/.mrconfig`
+`mr --trust-all bootstrap https://raw.githubusercontent.com/thekidder/myrepos/master/home/.mrconfig`
 
 #### Finish!
 
