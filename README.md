@@ -13,10 +13,10 @@
 * `git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick`
 * `source "$HOME/.homesick/repos/homeshick/homeshick.sh"`
 
-#### Install myrepos
+#### Install some dependencies
 
-* macOS: `brew install myrepos`
-* Ubuntu: `sudo apt-get install myrepos`
+* macOS: `brew install awscli jq node myrepos postgresql sbt supervisor vault`
+* Ubuntu: `sudo apt-get install myrepos supervisor`
 
 #### Finally, get config repos
 
