@@ -22,6 +22,10 @@
 
 `mr --trust-all bootstrap https://raw.githubusercontent.com/thekidder/myrepos/master/home/.mrconfig`
 
-#### Finish!
+#### SSH keys and final myrepos setup
 
 At this point you'll need to grab keys from another machine and place them in the correct place (`~/.ssh/identities/<identity_name>`). Then you can finish cloning private repos by running `mr update` (in a new shell to reload bashrc). You may also need to forcefully link castles once done: `homeshick link dotfiles hf-dotfiles myrepos`
+
+#### Additional dependencies
+
+* Python/Pip: `sudo easy_install pip && sudo pip install --ignore-installed --upgrade virtualenvwrapper`
