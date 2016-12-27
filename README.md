@@ -32,4 +32,4 @@ At this point you'll need to grab keys from another machine and place them in th
 
 * (macOS) Install brewed Python (with newer OpenSSL to work around old version in macOS): `brew install python`
 * Setuptools and virtualenvs: `sudo easy_install pip && sudo pip install virtualenvwrapper`
-* (macOS) You probably want to use the brewed python for new virtualenvs: `mkvirtualenv -p ``which python`` NAME`
+* (macOS) You probably want to use the brewed python for new virtualenvs: `mkvirtualenv -p \`which python\` NAME`
