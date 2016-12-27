@@ -26,6 +26,10 @@
 
 At this point you'll need to grab keys from another machine and place them in the correct place (`~/.ssh/identities/<identity_name>`). Then you can finish cloning private repos by running `mr update` (in a new shell to reload bashrc). You may also need to forcefully link castles once done: `homeshick link dotfiles hf-dotfiles myrepos`
 
-#### Additional dependencies
+#### Additional dependencies/tweaks
 
-* Python/Pip: `sudo easy_install pip && sudo pip install --ignore-installed --upgrade virtualenvwrapper`
+##### Python
+
+* (macOS) Install brewed Python (with newer OpenSSL to work around old version in macOS): `brew install python`
+* Setuptools and virtualenvs: `sudo easy_install pip && sudo pip install virtualenvwrapper`
+* (macOS) You probably want to use the brewed python for new virtualenvs: `mkvirtualenv -p `which python` NAME`
