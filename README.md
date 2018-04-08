@@ -13,6 +13,10 @@
 * `git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick`
 * `source "$HOME/.homesick/repos/homeshick/homeshick.sh"`
 
+#### Install Java 8 JDK
+
+* macOS: From the dmg at http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
 #### Install some dependencies
 
 * macOS: `brew install awscli jq node myrepos postgresql sbt supervisor vault`
